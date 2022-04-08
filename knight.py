@@ -3,6 +3,7 @@
 # 나이트의 이동 법칙
 # 1. 수평으로 두칸 => 수직 이동 한칸
 # 2. 수직으로 두칸 => 수평 이동 한칸
+
 n = ['a','b','c','d','e','f','g','h']
 m = [ i+1 for i in  range(8)]
 steps = [(-2,-1),(-1,-2),(1,-2),(2,-1),(2,1),(1,2),(-1,2),(-2,1)]
@@ -19,5 +20,6 @@ for step in steps:
         next_col = col + step[1]
         if next_row>=1 and next_row<=8 and next_col>=1 and next_col<=8:
                 count+= 1
+
 
 print(count)
