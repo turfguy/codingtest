@@ -7,4 +7,4 @@ for i in range(n):
 input_list= sorted(input_list, key=lambda stu : stu[1])
 
 for stu in input_list:
-    print(stu[0], end = '')
+    print(stu[0], end = ' ')
